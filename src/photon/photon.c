@@ -1,8 +1,6 @@
 #include "photon.h"
 #include "stddef.h"
 
-#pragma clang section text = "safetext"
-
 #define N_VAL 16  // bytes in hash output
 #define C_VAL 16  // internal state capacity in bytes
 #define R_VAL 2   // internal state bitrate and message block size in bytes
